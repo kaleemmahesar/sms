@@ -1,7 +1,5 @@
-.App {
-  text-align: center;
-}
-
+@import url("https://unpkg.com/@webpixels/css@1.1.5/dist/index.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +32,68 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.pending {
+  background: red;
+  color: #fff;
+}
+.done {
+  background: green;
+  color: #fff;
+}
+.answered {
+  opacity: 0.75;
+  pointer-events: none;
+}
+.home-banner {
+  padding: 75px 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: #fff;
+}
+.sign-up form {
+  padding: 40px;
+  background: #f3f3f3;
+  border-radius: 20px;
+  margin-top: 15%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+body {
+  font-size: 14px !important;
+}
+.form-control,
+.form-select {
+  font-size: 14px !important;
+}
+
+/* sms */
+.sms-actions-button .btn {
+  margin: 0 5px 0 0;
+  padding: 6px 6px;
+  border-radius: 23px;
+}
+.App .small-btn {
+  margin: 0;
+  padding: 7px 12px;
+  border-radius: 23px;
+  font-size: 12px;
+}
+.sms-actions-button .btn:last-child {
+  margin: 0;
+}
+@media print {
+	table {
+    boder: 1px solid red;
+    width: 100%;
   }
 }

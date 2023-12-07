@@ -1,0 +1,12 @@
+.sidebar {
+    width: 286px;
+    min-height: 100vh;
+    background: #14238A;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sms-dashboard {
+    padding-left: 286px;
+    position: relative;
+}
